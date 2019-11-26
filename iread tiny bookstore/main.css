@@ -1,0 +1,299 @@
+body {
+    margin: 0px;
+}
+/*الديف الرئيسي لجزء العلوي*/
+.paren { 
+	height: 15%; 
+	width:100%;
+	margin:0px;
+	display:flex;
+	background-color:#37475a;
+	border-bottom:1px solid;
+	border-color:lightgrey;
+}
+/*تنسيق صورة الشعار*/
+.iread{ 
+		float:left;
+		margin: 0px;
+		position: relative ; 
+		width: 20%;
+		height: 100%;
+		margin-left:20px;
+}
+
+
+/*تصميم صندوق البحث*/
+.srch{
+	
+	width: 70%;
+	height: 100%;
+	position: relative;
+	
+}
+.sbar{
+position: relative;
+}
+
+form.sbar input[type=text] {
+	
+	margin-top: 30px;
+	margin-left:5px;
+  padding: 10px;
+  font-size: 17px;
+  width: 80%;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+form.sbar button {
+	
+  width: 8%;
+  padding:5px;
+  padding-top: 9px;
+  padding-bottom: 10px;
+  background: #2196F3;
+  color: #FFDF00;
+  font-size: 20px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+   border-radius: 5px;
+  
+}
+/*ازرار تسجيل الدخول*/
+.linkat{
+	display: inline;
+	  margin-top: 30px;
+	  margin-right:5px;
+	  position: inline-block ;
+	  width: 25%;
+	height: 100%;
+	float:right;
+	    text-decoration: none;
+		
+	
+}
+
+.new{
+	width
+	margin-top: 0px;
+	    display:inline;
+	    float:right;
+	    text-decoration: none;
+	
+	    
+}
+/*تنسيق الازرار*/
+#msin{
+	width:130px;
+	padding:15px;
+	padding-top:11px;
+	padding-bottom:11px;
+	font-weight:200;
+	border-radius: 5px;
+	
+	 background-color: #BE9738;
+	 border: 1px solid;
+	 border-color: lightgrey;
+	font-family:  sans-serif;
+	color: white;
+}
+#msup{
+	width:130px;
+	padding:15px;
+	padding-top:11px;
+	padding-bottom:11px;
+	border-radius: 5px;
+	margin-left:10px;
+	background-color: #BE9738;
+	border: 1px solid;
+	 border-color: lightgrey;
+	 text-decoration: none;
+	 
+}
+/*تنسيق السلايد شو*/
+
+
+
+/* Slideshow container */
+.slideshow-container {
+	
+  width: 60%;
+  position: relative;
+  margin: auto;
+ 
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/2 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  
+  
+  
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+/*تنسيق التابات*/
+.tab {
+	font-family:sans-serif;
+	line-height:24px;
+	margin-left:5px;
+  overflow: hidden;
+  border: 0px;
+  background-color: #F0E6E7;
+  width:100%;
+  
+}
+
+	
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: right;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border: 0px;
+  width:200px;
+  border-bottom:2px solid lightgrey;
+  font-family: Sans-Serif;
+  font-size: 20px;
+  line-height:24px;
+
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+  border-bottom:2px solid #ca1515 ;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  border-top: none;
+}
+/*تنسيق محتوي المكتبة*/
+.content{
+	width:100%;
+}
+.raf1{
+	display:flex;
+	width:100%;
+	position: relative;
+}
+.raf2{
+	display:flex;
+	width:100%;
+	position: relative;
+}
+.raf3{
+	display:flex;
+	width:100%;
+	
+	position: relative;
+}
+.price{
+	font-size: 18px;
+    font-weight: 600;
+   color:#ca1515;
+   margin-bottom: 0px;
+   margin-top:0px;
+}
+
+.cont1{
+	width:20%;
+	margin-left:10px;
+	border:1px solid  lightgrey;
+	border-radius:10px;
+	width:250px;
+	text-align: center;
+	position: relative ;
+}
+
+/*تنسيق زر التحميل*/
+#down{
+	margin-top:0px;
+	text-decoration: none;
+	padding: 15px;
+	background-color: #c5c587;
+	border-radius:5px;
+	
+	
+}
+/*تنسيق زر التوصية*/
+
+#bfot{
+	width:120px;
+	padding: 10px;
+	background-color:#BE9738;
+	border-radius:5px;
+}
+#bfot:hover{
+	 background-color: aqua;
+	  color: white;
+}
